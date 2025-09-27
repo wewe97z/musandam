@@ -1,0 +1,39 @@
+/* Musandam-New-Look 2025 */
+:root{
+  --primary  : #008080;   /* teal        */
+  --accent   : #FF7F50;   /* coral       */
+  --bg       : #FFF8F3;   /* warm sand   */
+  --glass    : rgba(255,255,255,.75);
+  --shadow   : 0 8px 32px rgba(0,128,128,.18);
+}
+
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:"Tahoma",sans-serif;
+  background:var(--bg) url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h100v100H0z" fill="none"/><path d="M20 20L40 40M60 60L80 80" stroke="%23DDD" stroke-width="1.5"/></svg>');
+  color:#333;line-height:1.7
+}
+
+nav ol{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:10px;padding:0;margin:20px 0}
+nav li{background:var(--glass);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.4);border-radius:30px;box-shadow:var(--shadow);transition:.3s}
+nav li:hover{transform:translateY(-3px)}
+nav a{display:block;padding:10px 22px;color:var(--primary);font-weight:bold;text-decoration:none}
+
+h1{color:var(--accent);text-align:center;margin:20px 0}
+hr{border:none;height:3px;background:var(--accent);border-radius:3px}
+
+table{width:90%;margin:30px auto;border-collapse:collapse;background:var(--glass);backdrop-filter:blur(10px);border-radius:15px;overflow:hidden;box-shadow:var(--shadow)}
+th{background:var(--primary);color:#fff;padding:12px}
+td{padding:12px;border-bottom:1px solid rgba(0,0,0,.05)}
+tr:hover{background:rgba(255,127,80,.08)}
+
+fieldset{border:2px solid var(--primary);border-radius:15px;padding:20px;margin:20px auto;max-width:600px;background:var(--glass);box-shadow:var(--shadow)}
+legend{padding:0 10px;font-weight:bold;color:var(--primary)}
+input[type=text],textarea{width:100%;padding:10px;margin:8px 0;border:1px solid var(--primary);border-radius:8px;font-size:16px}
+input[type=submit]{background:var(--accent);color:#fff;border:none;padding:10px 25px;border-radius:20px;font-size:18px;cursor:pointer;transition:.3s}
+input[type=submit]:hover{background:#FF6347}
+
+img,video{max-width:100%;border-radius:15px;box-shadow:var(--shadow)}
+ul{list-style-type:"🌴 ";padding-right:20px}
+li{margin:10px 0}
+.center{display:block;margin:20px auto;text-align:center}
